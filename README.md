@@ -64,4 +64,3 @@ Para cadastrar uma missão, optei fazer utilizando o formulário HTML para inser
 <br><br>
 
 Além disso, para a integração REST simulada implementei uma função que simula envio de status para uma API hospitalar e exibe o JSON enviado via console.
-
