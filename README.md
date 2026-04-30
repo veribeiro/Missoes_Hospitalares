@@ -3,7 +3,7 @@
 <p>Projeto: Top Frame Hospitalar Adaptativo para Robô Autônomo</p>
 
 <h3>Objetivo do Projeto</h3>
-Gerenciar missões hospitalares, simulando tarefas que o robô precisa se locomover, transportando cargas entre postos que necessitam de algum recurso.
+Sistema de logística robótica hospitalar desenvolvido para gerenciar e otimizar o transporte de recursos médicos. Esse sistema simula o deslocamento do robô entre postos de atendimento.
 
 ##
 <h3>Funcionalidades implementadas</h3>
@@ -33,7 +33,7 @@ Gerenciar missões hospitalares, simulando tarefas que o robô precisa se locomo
 
 ##
 <h3>Instruções para executar localmente</h3>
-**Clone o repositório:**
+-Clone o repositório:
 
 No git bash execute:
 
@@ -45,9 +45,22 @@ Acesse até a pasta do projeto
 ```
 cd Missoes_Hospitalares
 ```
-
+##
 <h3>link do sistema publicado</h3>
 Link do projeto: 
 
-<h3>limitações conhecidas</h3>
-Nesse projeto, não é possível criar uma API, só simular ela. Além de que na parte do robô executar tarefas, também é só uma simulação, porém é mostrado a lógica real do que deveria acontecer.
+##
+<h3>Limitações conhecidas</h3>
+Não possuir API: Nesse projeto, não é possível criar uma API, só simular ela. 
+
+Simulação robô: na parte do robô executar tarefas, também é só uma simulação.
+
+Por esses fatores, não é um projeto de aplicação real.
+
+##
+<h3>Decisões técnicas tomadas</h3>
+Para cadastrar uma missão, optei fazer utilizando o formulário HTML para inserção de dados. Já o JavaScript foi utilizado na manipulação desses dados para influenciar a ordem das missões a serem executadas e os status do robô.
+<br><br>
+
+Além disso, para a integração REST simulada implementei uma função que simula envio de status para uma API hospitalar e exibe o JSON enviado via console.
+
