@@ -1,0 +1,64 @@
+.cadastroMissao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FormMissao{
+    background-color: rgb(183, 222, 231);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+input{
+    display: block;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+nav{
+    background-color: rgb(169, 184, 231);
+    padding: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 5px #888888;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#enviar{
+    margin-top: 10px;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"]{
+    background-color: rgb(169, 184, 231);
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(121, 219, 186);
+}

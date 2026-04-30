@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missões Hospitalares</title>
+    <link rel="icon" type="image/png" href="hospital.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <h1>Cadastro de nova missão hospitalar</h1>
+    </nav>
+    <!--Formulário que o usuário deve preencher: -->
+    <div class="cadastroMissao">
+    <form id="FormMissao">
+        Origem<input type="text" id="origem" placeholder="Qual é o ponto de origem?" required>
+        Destino<input type="text" id="destino" placeholder="Qual é o ponto de destino?" required>
+        Tipo de carga<input type="text" id="carga" placeholder="Qual é o tipo de carga ?">
+        Prioridade<input type="number" id="prioridade" placeholder="Qual é o nível de prioridade? Escolha entre 1, 2 ou 3" min="1" max="3">
+        Distância<input type="number" id="distancia" placeholder="Digite qual seria a possível distância (m) entre a origem e o destino" min="1">
+        <input type="submit" id="enviar" Enviar>
+    </form>
+    </div>
+
+    <div class="container-info">
+        <div class="info">
+    <h3 style="text-align: center; color: gray; font-size: 22px;">Missões Pendentes</h3>
+    <p>Escolha preferencialmente a prioridade 1, se não tiver o 1 escolha a prioridade 2, e por fim escolha a prioridade 3.</p>
+    <div id="listaMissoesContainer"></div>
+
+    <h3 style="text-align: center; color: gray; font-size: 22px;">Dados do Robô</h3>
+    <div id="statusRoboPainel"></div>
+
+    <h3 style="text-align: center; color: gray; font-size: 22px;">Alertas</h3>
+    <div id="alertas"></div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
